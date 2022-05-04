@@ -28,23 +28,19 @@
 
 .places
   @include font-style
-  display: flex
+  display: grid
   justify-content: center
+  flex-wrap: wrap
+
+  row-gap: 93px
+
 
 .places__upper-title
   @include places-setup
+  width: 100%
 
 .places__lower-title
   @include places-setup
-
-.places__details
-  padding-top: 48px
-
-  display: grid
-  grid-template-rows: 1fr
-  grid-template-columns: 1fr 1fr
-
-  grid-column-gap: 40px
 
 
 .places__text
@@ -53,7 +49,9 @@
   line-height: 163%
 
   width: 484px
-  height: 203px
+
+  padding-bottom: 17px
+  //height: 203px
 
 .places__lower-row
 
@@ -72,8 +70,18 @@
   flex-direction: column
 
   width: 484px
+  height: auto
 
-  justify-content: space-between
+  justify-content: flex-start
+
+.places__details
+  padding-top: 48px
+
+  display: grid
+  grid-template-rows: 1fr
+  grid-template-columns: 1fr 1fr
+
+  grid-column-gap: 40px
 
 
 .places__button-text
@@ -100,14 +108,15 @@
 
   margin-top: 61px
 
-
-
 .places__link
-
   //css for remove hyperlink styles
   text-decoration: none
 
 
+.artist
+  display: flex
+  flex-direction: column
+  justify-content: center
 
 
 .artist__word
@@ -132,3 +141,82 @@
   font-weight: 400
   font-size: 18px
   line-height: 22px
+
+
+.cover
+
+  @include font-style
+
+  display: flex
+  flex-direction: column
+  justify-content: start
+  align-items: center
+
+  padding-top: 92px
+
+  margin: 0 auto
+
+  width: 1184px
+  height: 740px
+
+  //background-image: url("../images/cover.png")
+  //background-size: cover
+  //opacity: .70
+
+.cover__image
+  position: absolute
+  width: 1184px
+  height: 740px
+
+  z-index: -1
+
+  opacity: .7
+
+.cover__button-text
+
+  @include font-style
+
+  font-weight: 600
+  font-size: 18px
+  line-height: 22px
+
+  z-index: 2
+
+.cover__title
+
+  //width: 656px
+  //height: 76px
+
+  padding-top: 243px
+
+  font-weight: 900
+  font-size: 72px
+  line-height: 76px
+
+.cover__text
+  padding-top: 32px
+
+  font-weight: 400
+  font-size: 18px
+  line-height: 22px
+
+.cover__button
+
+  margin-top: 32px
+
+  background-color: #0278FE
+
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: center
+
+  width: 198px
+  height: 48px
+
+  border-radius: 4px
+
+
+.cover__link
+  //css for remove hyperlink styles
+  text-decoration: none
