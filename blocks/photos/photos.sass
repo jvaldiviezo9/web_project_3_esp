@@ -1,3 +1,5 @@
+@import "../../styles/constants"
+
 .photos
 
   padding-top: 92px
@@ -11,9 +13,36 @@
 
   grid-gap: 16px
 
-  width: 1184px
-  height: 442px
+  max-width: 1184px
+
+  @media screen and (max-width: 768px)
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: repeat(4, 1fr)
+    margin: 0 24px
+
+  @media screen and (max-width: $breakpoint-small)
+
+    margin: 0 16px
+
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: repeat(8, 1fr)
+
+    padding-top: 38px
+    padding-bottom: 62px
 
 .photos__photo
   width: 284px
   height: 213px
+
+  @media screen and (max-width: $breakpoint-medium)
+    width: 352px
+    height: 264px
+
+  @media screen and (max-width: $breakpoint-small)
+    width: 288px
+    height: 216px
+
+
+

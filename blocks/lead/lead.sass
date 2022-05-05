@@ -1,16 +1,24 @@
+@import "../../styles/constants"
 
 .lead
   @include font-style
   display: flex
   flex-direction: column
   align-items: center
-  align-content: center
+  margin: 0 auto
+  max-width: 984px
+
+  @media screen and (max-width: $breakpoint-medium)
+    max-width: 720px
+
+  @media screen and (max-width: $breakpoint-small)
+    max-width: 288px
+
 
 
 .lead__title
 
   width: 793px
-  height: 200px
   font-weight: 900
   font-size: 96px
   line-height: 100px
@@ -18,10 +26,18 @@
 
   padding-bottom: 32px
 
+  @media screen and (max-width: $breakpoint-small)
+    font-weight: 900
+    font-size: 40px
+    line-height: 44px
+    width: 288px
+
+    padding-bottom: 60px
+
+
 .lead__subtitle
 
-  width: 720px
-  height: 72px
+  max-width: 720px
 
   font-weight: 400
   font-size: 30px
@@ -31,10 +47,25 @@
 
   padding-bottom: 64px
 
+  @media screen and (max-width: $breakpoint-small)
+    font-weight: 400
+    font-size: 16px
+    line-height: 20px
+
+    padding-bottom: 40px
+
 .lead__image
 
   width: 984px
   height: 615px
   filter: grayscale(1)
+
+  @media screen and (max-width: $breakpoint-medium)
+    max-width: 768px
+    height: 480px
+
+  @media screen and (max-width: $breakpoint-small)
+    max-width: 320px
+    height: 200px
 
 
