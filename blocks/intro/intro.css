@@ -1,0 +1,84 @@
+.intro {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: white;
+  max-width: 1017px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+  .intro {
+    max-width: 720px;
+  }
+}
+
+.intro__title {
+  padding-top: 92px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+@media screen and (max-width: 800px) {
+  .intro__title {
+    padding-top: 55px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .intro__title {
+    padding-top: 55px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+.intro__quote {
+  max-width: 722px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 40px;
+}
+@media screen and (max-width: 800px) {
+  .intro__quote {
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .intro__quote {
+    padding-top: 9px;
+    max-width: 288px;
+  }
+}
+
+.intro__name {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  display: block;
+  position: relative;
+  bottom: 20px;
+  text-align: right;
+}
+@media screen and (max-width: 430px) {
+  .intro__name {
+    position: static;
+  }
+}
+
+.intro__description {
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  padding-top: 42px;
+}
+@media screen and (max-width: 430px) {
+  .intro__description {
+    padding-top: 0;
+    max-width: 288px;
+  }
+}
+
+/*# sourceMappingURL=intro.css.map */

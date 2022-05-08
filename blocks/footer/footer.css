@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+@media screen and (max-width: 430px) {
+  .footer {
+    padding-top: 64px;
+    line-height: 14px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

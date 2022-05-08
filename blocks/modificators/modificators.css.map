@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAoB;EAClB,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,4BAA2B;;AAEzC,kCAAkC;EAChC,gBAAgB,EAAE,OAAO;;AAG3B,iCAAiC;EAC/B,gBAAgB,EAAE,OAAO;;AAG3B,mBAAmB;EACjB,UAAU,EAAE,4BAA2B;;AAEzC,yBAAyB;EACvB,gBAAgB,EAAE,kBAAkB",
+"sources": ["modificators.sass"],
+"names": [],
+"file": "modificators.css"
+}

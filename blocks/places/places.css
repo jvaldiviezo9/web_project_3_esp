@@ -1,0 +1,223 @@
+.places {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: white;
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 93px;
+  margin: 0 auto;
+  max-width: 987px;
+}
+@media screen and (max-width: 800px) {
+  .places {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places {
+    display: block;
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .places__card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.places__upper-title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+@media screen and (max-width: 800px) {
+  .places__upper-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places__upper-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+.places__lower-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  max-width: 987px;
+}
+@media screen and (max-width: 800px) {
+  .places__lower-row {
+    max-width: 720px;
+    grid-column-gap: 28px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places__lower-row {
+    display: block;
+  }
+}
+
+.places__lower-title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+@media screen and (max-width: 800px) {
+  .places__lower-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places__lower-title {
+    display: block;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+.places__details {
+  padding-top: 48px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  max-width: 987px;
+}
+@media screen and (max-width: 800px) {
+  .places__details {
+    grid-column-gap: 28px;
+    max-width: 720px;
+    padding-top: 24px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places__details {
+    display: block;
+    max-width: 352px;
+  }
+}
+
+.places__image {
+  max-width: 460px;
+  max-height: 460px;
+}
+@media screen and (max-width: 800px) {
+  .places__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places__image {
+    max-width: 320px;
+    max-height: 320px;
+    background-color: blue;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+.places__link {
+  text-decoration: none;
+}
+@media screen and (max-width: 430px) {
+  .places__link {
+    max-width: 288px;
+    display: none;
+  }
+}
+
+.places__link-small {
+  display: none;
+}
+@media screen and (max-width: 430px) {
+  .places__link-small {
+    max-width: 288px;
+    display: block;
+  }
+}
+
+.places__button-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+@media screen and (max-width: 430px) {
+  .places__button-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.places__button {
+  background-color: #0278FE;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 355px;
+  height: 48px;
+  border-radius: 4px;
+  margin-top: 48px;
+}
+@media screen and (max-width: 800px) {
+  .places__button {
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places__button {
+    max-width: 288px;
+    margin-top: 0;
+    margin-bottom: 17px;
+  }
+}
+
+.places__description {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  max-width: 484px;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 800px) {
+  .places__description {
+    max-width: 352px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .places__description {
+    display: block;
+    max-width: 288px;
+  }
+}
+
+.places__text {
+  padding-bottom: 17px;
+}
+@media screen and (max-width: 430px) {
+  .places__text {
+    padding-bottom: 8px;
+  }
+}
+
+/*# sourceMappingURL=places.css.map */

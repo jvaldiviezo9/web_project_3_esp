@@ -1,0 +1,21 @@
+.artist__word {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #AAAAAA;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.artist__name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/*# sourceMappingURL=artist.css.map */
