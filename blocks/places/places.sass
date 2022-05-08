@@ -21,11 +21,26 @@
   @media screen and (max-width: $breakpoint-medium)
     max-width: 720px
 
+  @media screen and (max-width: $breakpoint-small)
+    display: block
+    max-width: 320px
+
+.places__card
+
+  @media screen and (max-width: $breakpoint-small)
+    display: flex
+    flex-wrap: wrap
+
 
 .places__upper-title
   @include places-setup
 
   @media screen and (max-width: $breakpoint-medium)
+
+    font-size: 42px
+    line-height: 46px
+
+  @media screen and (max-width: $breakpoint-small)
 
     font-size: 42px
     line-height: 46px
@@ -43,6 +58,9 @@
     max-width: 720px
     grid-column-gap: 28px
 
+  @media screen and (max-width: $breakpoint-small)
+    display: block
+
 
 .places__lower-title
   @include places-setup
@@ -52,45 +70,11 @@
     font-size: 42px
     line-height: 46px
 
+  @media screen and (max-width: $breakpoint-small)
+    display: block
+    font-size: 42px
+    line-height: 46px
 
-.places__text
-  font-weight: 400
-  font-size: 18px
-  line-height: 163%
-
-  max-width: 484px
-
-  padding-bottom: 17px
-
-  @media screen and (max-width: $breakpoint-medium)
-    font-weight: 400
-    font-size: 16px
-    line-height: 163%
-    max-width: 352px
-
-
-.places__image
-  max-width: 460px
-  max-height: 460px
-
-  @media screen and (max-width: $breakpoint-medium)
-    max-width: 340px
-    max-height: 340px
-
-
-.places__description
-
-  display: flex
-  flex-direction: column
-
-  max-width: 484px
-  height: auto
-
-  justify-content: flex-start
-
-  @media screen and (max-width: $breakpoint-medium)
-    max-width: 352px
-   
 
 .places__details
   padding-top: 48px
@@ -107,10 +91,47 @@
     max-width: 720px
     padding-top: 24px
 
+  @media screen and (max-width: $breakpoint-small)
+    display: block
+    max-width: 352px
+
+
+.places__image
+  max-width: 460px
+  max-height: 460px
+
+  @media screen and (max-width: $breakpoint-medium)
+    max-width: 340px
+    max-height: 340px
+
+  @media screen and (max-width: $breakpoint-small)
+    max-width: 320px
+    max-height: 320px
+
+    background-color: blue
+
+    grid-row-start: 1
+    grid-row-end: 2
+
+    grid-column-start: 1
+    grid-column-end: 2
+
 
 .places__link
   //css for remove hyperlink styles
   text-decoration: none
+
+  @media screen and (max-width: $breakpoint-small)
+    max-width: 288px
+    display: none
+
+
+.places__link-small
+  display: none
+
+  @media screen and (max-width: $breakpoint-small)
+    max-width: 288px
+    display: block
 
 .places__button-text
 
@@ -119,6 +140,12 @@
   font-weight: 600
   font-size: 18px
   line-height: 22px
+
+
+  @media screen and (max-width: $breakpoint-small)
+    font-weight: 600
+    font-size: 14px
+    line-height: 17px
 
 .places__button
 
@@ -134,7 +161,53 @@
 
   border-radius: 4px
 
-  margin-top: 61px
+  margin-top: 48px
 
   @media screen and (max-width: $breakpoint-medium)
     max-width: 340px
+
+  @media screen and (max-width: $breakpoint-small)
+    max-width: 288px
+    margin-top: 0
+    margin-bottom: 17px
+
+
+.places__description
+
+  display: flex
+  flex-direction: column
+
+  font-weight: 400
+  font-size: 18px
+  line-height: 163%
+
+  max-width: 484px
+
+  justify-content: flex-start
+
+  @media screen and (max-width: $breakpoint-medium)
+    max-width: 352px
+
+    font-weight: 400
+    font-size: 16px
+    line-height: 163%
+
+  @media screen and (max-width: $breakpoint-small)
+    display: block
+    max-width: 288px
+
+.places__text
+
+  padding-bottom: 17px
+  @media screen and (max-width: $breakpoint-small)
+    padding-bottom: 8px
+
+
+
+
+
+   
+
+
+
+

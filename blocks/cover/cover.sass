@@ -16,9 +16,11 @@
   max-width: 1184px
   height: 740px
 
-  //background-image: url("../images/cover.png")
-  //background-size: cover
-  //opacity: .70
+  @media screen and (max-width: $breakpoint-small)
+    margin-top: calc(64px - 17px)
+    width: 320px
+    height: 254px
+
 
 .cover__image
   position: absolute
@@ -29,15 +31,10 @@
 
   opacity: .7
 
-.cover__button-text
+  @media screen and (max-width: $breakpoint-small)
+    width: 320px
+    height: 254px
 
-  @include font-style
-
-  font-weight: 600
-  font-size: 18px
-  line-height: 22px
-
-  z-index: 2
 
 .cover__title
 
@@ -50,6 +47,13 @@
   font-size: 72px
   line-height: 76px
 
+  @media screen and (max-width: $breakpoint-small)
+    font-weight: 900
+    font-size: 32px
+    line-height: 35px
+
+    padding-top: 46px
+
 .cover__text
   display: flex
   flex-direction: column
@@ -61,6 +65,14 @@
   font-weight: 400
   font-size: 18px
   line-height: 22px
+
+  @media screen and (max-width: $breakpoint-small)
+    font-weight: 400
+    font-size: 14px
+    line-height: 16px
+
+    padding-top: 16px
+
 
 .cover__button
 
@@ -77,6 +89,21 @@
   height: 48px
 
   border-radius: 4px
+
+
+  @media screen and (max-width: $breakpoint-small)
+    margin-top: 16px
+
+
+.cover__button-text
+
+  @include font-style
+
+  font-weight: 600
+  font-size: 18px
+  line-height: 22px
+
+  z-index: 2
 
 
 .cover__link
