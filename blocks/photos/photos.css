@@ -8,20 +8,21 @@
   grid-gap: 16px;
   max-width: 1184px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .photos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    margin: 0 24px;
+    justify-items: center;
+    align-content: space-evenly;
   }
 }
 @media screen and (max-width: 430px) {
   .photos {
-    margin: 0 16px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
+    justify-items: center;
     padding-top: 38px;
     padding-bottom: 62px;
   }
