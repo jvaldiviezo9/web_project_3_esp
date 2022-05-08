@@ -1,27 +1,26 @@
 @import "../vendor/normalize.css"
 @import "../vendor/fonts/inter/inter.css"
-@import "../styles/constants"
 
+//@import "../styles/constants.css"
 
-@import "../blocks/modificators/modificators"
+// Nota: para la realizacion de este proyecto me aventure a utilizar Sass
+// esto se nos presento en un webinar, sin embargo, no estaba claro cual era la mejor
+// forma de emplearlo con la metodologia BEM. Investigando, quise emular lo que normalmente
+// se haria con CSS, que es generando un archivo CSS por bloque e importarlos todos.
+// Noté que para poder hacer eso se tiene que hacer un import y especificar la extension css al final
+// sin embargo, considero que quizá lo mejor es utilizar un _ para cada nombre de Sass y solo generat un
+// archivo CSS grande. Me gustaria recibir comentarios de cual seria la mejor manera de hacerlo.
+//
+// ¡Muchas gracias!
 
-
-@import "../blocks/page/page"
-
-@import "../blocks/header/header"
-
-@import "../blocks/logo/logo"
-
-@import "../blocks/lead/lead"
-
-@import "../blocks/intro/intro"
-
-@import "../blocks/photos/photos"
-
-@import "../blocks/places/places"
-
-@import "../blocks/artist/artist"
-
-@import "../blocks/cover/cover"
-
-@import "../blocks/footer/footer"
+@import "../blocks/modificators/modificators.css"
+@import "../blocks/page/page.css"
+@import "../blocks/header/header.css"
+@import "../blocks/logo/logo.css"
+@import "../blocks/lead/lead.css"
+@import "../blocks/intro/intro.css"
+@import "../blocks/photos/photos.css"
+@import "../blocks/places/places.css"
+@import "../blocks/artist/artist.css"
+@import "../blocks/cover/cover.css"
+@import "../blocks/footer/footer.css"
