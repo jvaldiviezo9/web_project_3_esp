@@ -14,14 +14,14 @@
     max-width: 720px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places {
     display: block;
     max-width: 320px;
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__card {
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
     line-height: 46px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__upper-title {
     font-size: 42px;
     line-height: 46px;
@@ -58,7 +58,7 @@
     grid-column-gap: 28px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__lower-row {
     display: block;
   }
@@ -75,7 +75,7 @@
     line-height: 46px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__lower-title {
     display: block;
     font-size: 42px;
@@ -98,7 +98,7 @@
     padding-top: 24px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__details {
     display: block;
     max-width: 352px;
@@ -115,7 +115,7 @@
     max-height: 340px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__image {
     max-width: 320px;
     max-height: 320px;
@@ -130,7 +130,7 @@
 .places__link {
   text-decoration: none;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__link {
     max-width: 288px;
     display: none;
@@ -140,7 +140,7 @@
 .places__link-small {
   display: none;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__link-small {
     max-width: 288px;
     display: block;
@@ -155,7 +155,7 @@
   font-size: 18px;
   line-height: 22px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__button-text {
     font-weight: 600;
     font-size: 14px;
@@ -179,7 +179,7 @@
     max-width: 340px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__button {
     max-width: 288px;
     margin-top: 0;
@@ -204,7 +204,7 @@
     line-height: 163%;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__description {
     display: block;
     max-width: 288px;
@@ -214,7 +214,7 @@
 .places__text {
   padding-bottom: 17px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .places__text {
     padding-bottom: 8px;
   }

@@ -10,7 +10,7 @@
   padding-top: 92px;
   padding-bottom: 24px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .footer {
     padding-top: 64px;
     line-height: 14px;

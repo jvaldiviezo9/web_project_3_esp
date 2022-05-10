@@ -3,7 +3,7 @@
   font-style: normal;
   color: white;
   max-width: 1017px;
-  margin: 0 auto;
+  margin: 0 2.5%;
 }
 @media screen and (max-width: 800px) {
   .intro {
@@ -22,7 +22,7 @@
     padding-top: 55px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .intro__title {
     padding-top: 55px;
     font-weight: 900;
@@ -43,7 +43,7 @@
     padding-top: 15px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .intro__quote {
     padding-top: 9px;
   }
@@ -60,7 +60,7 @@
   bottom: 20px;
   text-align: right;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .intro__name {
     position: static;
   }
@@ -73,7 +73,7 @@
   line-height: 163%;
   padding-top: 42px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 510px) {
   .intro__description {
     padding-top: 0;
   }

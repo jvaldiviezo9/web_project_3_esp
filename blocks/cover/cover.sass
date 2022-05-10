@@ -2,12 +2,16 @@
 
 .cover
 
+  position: relative
+
   @include font-style
 
   display: flex
   flex-direction: column
-  justify-content: start
+  justify-content: center
   align-items: center
+
+  overflow: hidden
 
   margin-top: 92px
   margin-left: auto
@@ -18,7 +22,7 @@
 
   @media screen and (max-width: $breakpoint-small)
     margin-top: calc(64px - 17px)
-    width: 320px
+    width: 100%
     height: 254px
 
 
@@ -32,13 +36,19 @@
   opacity: .7
 
   @media screen and (max-width: $breakpoint-small)
-    width: 320px
+    width: 100%
     height: 254px
 
 
 .cover__title
 
-  padding-top: 243px
+  z-index: 99
+
+  position: relative
+
+  text-align: center
+
+  //padding-top: 243px
 
   font-weight: 900
   font-size: 72px
@@ -49,13 +59,17 @@
     font-size: 32px
     line-height: 35px
 
-    padding-top: 46px
+    //padding-top: 46px
 
 .cover__text
+
+  z-index: 99
+
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
+  align-content: center
 
   padding-top: 32px
 
